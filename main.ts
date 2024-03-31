@@ -24,7 +24,7 @@ if (pinAnswer.pin === myPin) {
                 name: "operation",
                 message: "Please select option",
                 type: "list",
-                choices: ["Fast Cash","Cash Withdraw","Balancye Inquiry"]
+                choices: ["Fast Cash","Cash Withdraw","Balance Inquiry"]
             }
         ]
     );
@@ -64,7 +64,7 @@ if (pinAnswer.pin === myPin) {
             console.log(`Your remaining balance is: ${myBalance}`);
 
         }   
-    } else if (operationAns.operation === "Balancye Inquiry") {
+    } else if (operationAns.operation === "Balance Inquiry") {
         console.log(`Your remaining balance is: ${myBalance}`);
     }
 
